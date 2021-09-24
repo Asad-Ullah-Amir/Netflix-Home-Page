@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="nav_covered">
+        <nav class="navbar_main">
+            <div class="navbar_logo">
+                <img class="logo" src="/img/netflix.png" alt="">
+            </div>
+            <div class="navigation_menu">
+                <ul class="nav_anchor_parent">
+                    <li><a class="nav_anchor" href="#">Home</a></li>
+                    <li><a class="nav_anchor" href="#">Gallery</a></li>
+                    <li><a class="nav_anchor" href="#">Animated</a></li>
+                    <li><a class="nav_anchor" href="#">Contact</a></li>
+                    <li><a class="nav_anchor" href="#">Services</a></li>
+                    <li><a class="nav_anchor" href="#">Latest</a></li>
+
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <div class="search">
+                    <input class="main-search" type="text" name="" id="" placeholder="Search">
+                    <img class="search-icon me-2" src="https://img.icons8.com/ios/50/000000/search--v1.png" />
+                </div>
+                <div class="credentials">
+                    <a href="#" class="btn btn-sm btn-outline-primary">Sign Up</a>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Sign In</a>
+                </div>
+            </div>
+            <i id="menu" class="fas fa-bars menu_icon"></i>
+        </nav>
+    </div>
+
+
+    <!-- Part to show on mobile  -->
+    <nav class="mobile_nav" id="mobile_nav">
+        <div class="container-fluid pt-4">
+            <div class="row p-0">
+                <div class="col-md-4 col-6 bord p-0">
+                    <ul class="nav_anchor_parent" style="list-style: none;">
+                        <li><a class="nav_anchor" href="#">Home</a></li>
+                        <li><a class="nav_anchor" href="#">Contact</a></li>
+                        <li><a class="nav_anchor" href="#">Gallery</a></li>
+                        <li><a class="nav_anchor" href="#">Animated</a></li>
+                        <li><a class="nav_anchor" href="#">Services</a></li>
+                        <li><a class="nav_anchor" href="#">Latest</a></li>
+                        <li><a class="nav_anchor" href="#">Most Viewed</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 ps-sm-5">
+                    <button class="btn btn-outline-primary mb-sm-0 mb-2">Sign up</button>
+                    <button class="btn btn-outline-primary">login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+
+    <!-- Body start -->
+    <!-- SECTION 1 -->
+    <section>
+        <div class="container-fluid" id="display_section">
+            <div class="row" >
+                <div class="col-sm-6">
+
+                    <p class="N_series">N <span class="">Series</span></p>
+                    <h2 class="title mb-md-3">Stranger things</h2>
+                    <p class="description text-white pe-lg-5 pe-md-2rem">Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Non aliquam temporibus officia delectus atque minima enim doloremque provident
+                        totam vitae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis laborum fuga
+                        ullam minus commodi cum.</p>
+                    <div class="btn_div">
+                        <button class='btn btn-outline-light'><i class="fas fa-play"></i>&nbsp; Play</button>
+                        <button class='btn btn-info'><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+                <!-- CAROUSAL SLIDER  -->
+                <div class="col-6 d-md-block d-none carousal_slider--container">
+                        <ul style="list-style: none;" class="carousal_track">
+                            <li class="carousal-item">
+                                <img src="/img/thor.png" alt="">
+                            </li>
+                            <li class="carousal-item">
+                                <img src="/img/hulk.png" alt="">
+                            </li>
+                            <li class="carousal-item">
+                                <img src="/img/black-window.png" alt="">
+                            </li>
+                            <li class="carousal-item">
+                                <img src="/img/iron-man.png" alt="">
+                            </li>
+                        </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- END OF SECTION 1 -->
+
+
+
+    <!-- SECTION 2 START -->
+    <section>
+        <div class="container-fluid series_preview">
+            <h5 class="text-white p-3">Popular on Netflix</h5>
+
+            <div class="previews">
+                <div>
+                    <h5 class="text-white ps-3">Some other</h5>
+                    <div id="scroll_bar" class="scroll_bar">
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h5 class="text-white ps-3">More related to this</h5>
+                    <div id="scroll_bar" class="scroll_bar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF SECTION 2 -->
+
+
+
+    <!-- FOOTER START  -->
+    <footer>
+        <div class="container-fluid footer px-3 pt-4">
+            <div class="row align-items-center">
+                <div class="col-md-2 col-sm-6 col-4 first ps-sm-5">
+                    <a href="#">
+                        <img src="../img/netflix.png" class="logo" alt="">
+                    </a>
+                    <ul style="list-style: none;" class="nav_anchor_parent">
+                        <li><a class="nav_anchor" href="#">Home</a></li>
+                        <li><a class="nav_anchor" href="#">Trendings</a></li>
+                        <li><a class="nav_anchor" href="#">Gallery</a></li>
+                        <li><a class="nav_anchor" href="#">Services</a></li>
+                        <li><a class="nav_anchor" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 col-4 first ps-sm-5 pt-sm-5">
+                    <ul style="list-style: none;" class="nav_anchor_parent">
+                        <li><a class="nav_anchor" href="#">Home</a></li>
+                        <li><a class="nav_anchor" href="#">Trendings</a></li>
+                        <li><a class="nav_anchor" href="#">Gallery</a></li>
+                        <li><a class="nav_anchor" href="#">Services</a></li>
+                        <li><a class="nav_anchor" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-5 col-4 first ps-sm-5 pt-sm-5">
+                    <ul style="list-style: none;" class="nav_anchor_parent">
+                        <li><a class="nav_anchor" href="#">Home</a></li>
+                        <li><a class="nav_anchor" href="#">Trendings</a></li>
+                        <li><a class="nav_anchor" href="#">Gallery</a></li>
+                        <li><a class="nav_anchor" href="#">Services</a></li>
+                        <li><a class="nav_anchor" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-7 second pt-sm-5 d-flex flex-column align-items-center">
+                    <div class="">
+                        <button class="btn btn-outline-primary">Sign Up</button>
+                        <button class="btn btn-outline-primary">Sign In</button>
+                    </div>
+                    <div class="subs ms-md-3 mt-4">
+                        <input type="text" placeholder="Enter Email">
+                        <label for="">Subscribe</label>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">All Rights reserved 2021</p>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="/js/index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#menu').click(function () {
+                $('#mobile_nav').slideToggle(200);
+            })
+        });
+
+        fetch('https://jsonplaceholder.typicode.com/photos?_limit=40').then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            data.map((val) => {
+                let img = document.createElement('img');
+                img.style.borderRadius = '.3rem';
+                img.src = `https://picsum.photos/200/250?random=${val.id}`;
+                let a = document.createElement('A');
+                a.href = 'https://www.google.com';
+                a.appendChild(img);
+                a.style.margin = '1rem';
+                $('.scroll_bar').append(a);
+            })
+        })
+
+    </script>
+</body>
+
+</html>
